@@ -1,0 +1,8 @@
+{
+"gateid" : 1,
+"localip" : "192.168.31.77",
+"localmask" : "255.255.255.0",
+"serverip" : "192.168.31.88",
+"serverport" : 8090,
+"adminpass" : "123456"
+}

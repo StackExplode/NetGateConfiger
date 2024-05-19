@@ -70,9 +70,10 @@ else
 		<input type="Submit" value="OK" class="button" />
 		<span>
 	</form>
+	<p style="color: red;"><?php echo $errtext ?></p>
 </div>
 
-<p style="color: red;"><?php echo $errtext ?></p>
+
 
 <footer>
 

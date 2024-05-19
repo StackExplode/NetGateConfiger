@@ -1,3 +1,4 @@
 {
-"confpath" : "/var/www/webdavroot/test/config.json"
+"confpath" : "/var/www/webdavroot/test/config.json",
+"rebootscript" : "/var/www/webdavroot/test/reboot.sh"
 }

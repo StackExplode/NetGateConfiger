@@ -18,7 +18,7 @@ if($method == "POST")
 $postpass = $_POST["adminpass"];
 	
 	//$mypathfile = fopen("path.conf", "r") or die("Unable to open path file!");
-$jsonpathfile = file_get_contents("/var/www/webdavroot/test/path.json");
+$jsonpathfile = file_get_contents("path.json");
 $jsonpath = json_decode($jsonpathfile);
 //fclose($mypathfile);
 
@@ -51,24 +51,34 @@ else
 ?>
 
 <html>
-<head><title>NetGate Login</title></head>
+<head>
+  <title>NetGate Login</title>
+  <link rel="stylesheet" href="main.css" />
+</head>
 
 <body>
 
-<div>
+<div class="allcenter">
+
+	<p><h1>Welcome to Netgate Config Page!</p></h1>
 	<form action="login.php" method="post">
-		<span>Admin Password:</span>
-		<span>
-		<input id="adminpass" name="adminpass" type="password" />
+		<span class="passspan">
+		<input id="adminpass" name="adminpass" placeholder="Input admin password..." type="password" class="passtextbox" />
 		<span>
 
 		<span>
-		<input type="Submit" value="OK"/>
+		<input type="Submit" value="OK" class="button" />
 		<span>
 	</form>
 </div>
 
 <p style="color: red;"><?php echo $errtext ?></p>
+
+<footer>
+
+<p>Copyleft by Jennings @2024 with GPLv3 licence. All rights reversed!</p>
+</footer>
+
 </body>
 
 

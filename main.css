@@ -1,0 +1,99 @@
+.allcenter
+{
+    text-align: center; /*让div内部文字居中*/
+	background-color: #fff;
+	border-radius: 20px;
+	width: 600px;
+	height: 350px;
+	margin: auto;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+.button
+{
+	padding: 10px 40px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+
+}
+
+.button:hover
+{
+	background-color: #0056b3;
+}
+
+.passtextbox
+{
+	height : 35px;
+	width : 400px;
+	font-size: 1.1em;
+}
+
+.passspan
+{
+	width: 400px;
+	margin-right : 10px;
+}
+
+footer {
+background-color: #FFF;
+position:fixed;
+bottom: 0px;
+width: 100%;
+text-align: center;
+}
+
+header {
+background-color: #FFF;
+position:fixed;
+top: 0px;
+width: 100%;
+text-align: center;
+}
+
+.headdiv
+{
+	margin: auto;
+	background-color: #007bff;
+	color: white;
+	width : 800px;
+	padding: 30px 0px;
+}
+
+
+.confmain
+{
+	margin: 200px auto auto auto ;
+	width : 800px;
+}
+
+.confmain>form
+{
+	padding: 0px 0px 40px 40px;
+}
+
+.confmain>form>p
+{
+	margin-top : 40px;
+}
+
+.confmain>form SPAN
+{
+	font-size: 1.1em;
+}
+
+
+.confmain input[type="text"]
+{
+	float: right;
+	height : 35px;
+	width : 500px;
+	font-size: 1.1em;
+}
+     

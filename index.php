@@ -3,7 +3,7 @@
 session_start();
 
 //$mypathfile = fopen("path.conf", "r") or die("Unable to open path file!");
-$jsonpathfile = file_get_contents("/var/www/webdavroot/test/path.json");
+$jsonpathfile = file_get_contents("path.json");
 $jsonpath = json_decode($jsonpathfile);
 //fclose($mypathfile);
 

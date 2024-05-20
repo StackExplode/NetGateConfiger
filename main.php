@@ -40,10 +40,12 @@ $json_data = json_decode($json);
 <div class="confmain">
 <form action="setting.php" method="post">
 <p><span>NetGate ID:</span><input name="gateid" type="text" value="<?php echo $json_data->gateid ?>" /></p>
+<p><span>NetGate Name:</span><input name="gatename" type="text" value="<?php echo $json_data->gatename ?>" /></p>
 <p><span>Local IP:</span><input name="localip" type="text" value="<?php echo $json_data->localip ?>"/></p>
 <p><span>Local Mask:</span><input name="localmask" type="text" value="<?php echo $json_data->localmask ?>"/></p>
 <p><span>Server IP:</span><input name="serverip" type="text" value="<?php echo $json_data->serverip ?>"/></p>
 <p><span>Server Port:</span><input name="serverport" type="text" value="<?php echo $json_data->serverport ?>"/></p>
+<p><span>Server Password:</span><input name="serverpass" type="text" value="<?php echo $json_data->serverpass ?>" /></p>
 <p><span>Admin Password:</span><input name="adminpass" type="text" value="<?php echo $json_data->adminpass ?>"/></p>
 
 

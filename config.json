@@ -1,8 +1,10 @@
 {
 "gateid" : 1,
+"gatename" : "room1", 
 "localip" : "192.168.31.77",
 "localmask" : "255.255.255.0",
 "serverip" : "192.168.31.88",
 "serverport" : 8090,
+"serverpass" : "123456",
 "adminpass" : "123456"
 }

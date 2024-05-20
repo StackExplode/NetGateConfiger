@@ -9,10 +9,12 @@ $jsonpath = json_decode($jsonpathfile);
 
 $arr = array(
 	"gateid" => $_POST['gateid'],
+	"gatename" => $_POST['gatename'],
 	"localip" => $_POST['localip'],
 	"localmask" => $_POST['localmask'],
 	"serverip" => $_POST['serverip'],
 	"serverport" => $_POST['serverport'],
+	"serverpass" => $_POST['serverpass'],
 	"adminpass" => $_POST['adminpass'],
 );
 
